@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Moon Chin';
+    src: url(../fonts/moon-chin.ttf);
+}
+
+html {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+@-moz-document url-prefix() {
+    html {
+        scroll-behavior: auto;
+    }
+
+    body {
+        scroll-behavior: smooth;
+    }
+}
